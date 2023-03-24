@@ -8,6 +8,7 @@ export const SectionHeroStyle = styled("section", {
     width: "100%",
     height: 731,
     background: `url(${bgHero.src}) no-repeat top center`,
+    backgroundAttachment: "fixed",
     paddingTop: 96,
     display: "flex",
     [`${Container}`]: {

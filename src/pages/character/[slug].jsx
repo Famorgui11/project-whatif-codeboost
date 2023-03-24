@@ -1,5 +1,11 @@
+import { SectionHeroCharacter } from "@/components/details/sectionHeroCharacter";
+import { ListCharacters } from "@/components/home/listCharacters";
+
 export default function PageCharacter() {
     return (
-      <h1>Detalhes do personagem</h1>
+      <>
+        <SectionHeroCharacter />
+        <ListCharacters />
+      </>
     )
   }

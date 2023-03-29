@@ -16,6 +16,11 @@ createStitches({
             gray300: "#C6C5CE",
             gray200: "#E1E0E7",
             gray100: "#F1F0F5",        
-        }
+        },
+    },
+    media: {
+        lgScreen: "(max-width: 1200px)",
+        tablet: "(max-width: 991px)",
+        mobile: "(max-width: 600px)",
     }
-})
+});

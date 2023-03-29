@@ -2,10 +2,10 @@ import Image from "next/image";
 import { StylePopupVideo } from "./styles";
 import IconPlay from "@/assets/play.svg";
 
-export function PopupVideo() {
+export function PopupVideo({label, thumb}) {
     return <StylePopupVideo>
-        <span>ASSISTA AO TRAILER</span>
-        <button>
+        <span>{label}</span>
+        <button style={{ background: `url(${thumb}) no-repeat center center` }}>
             <div>
                 <Image src={IconPlay} alt="Icon play"/>
             </div>

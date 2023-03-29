@@ -1,0 +1,7 @@
+{
+  "_latest": "0.7.1",
+  "apiEndpoint": "https://codeboost-what-if.prismic.io/api/v2",
+  "libraries": [
+    "@/slices"
+  ]
+}
